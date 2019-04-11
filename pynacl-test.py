@@ -1,4 +1,4 @@
-# Program for encrypting files using pynacl
+# Program for encrypting files using pynacl, Omar Sharif, CS 683
 
 import nacl.utils
 from nacl.public import PrivateKey, Box, PublicKey
@@ -6,14 +6,7 @@ import json
 from pathlib import Path
 
 '''
-When encrypting a file, be sure to save the private and public keys of both users to a file so they can be reused again
-after the program terminates. Maybe have a function to create the public and private keys and write them to a file. Once this is done you 
-should be able to encrypt/decrypt messages at different intervals. After you have successfully decrypted and encrypted messages you between 
-programs you should move to encrypting through the entire file directory. Try to encrypt text files and .doc files. 
-
-A possible ransomware attack could be uploaded via a rubber ducky. The executable could run with predetermined public/private keys read from a 
-special config file. Once all files on a victims machine are encrypted, the config file should be deleted along with the keys. Without the keys 
-the victim would not be able decrypt his file and 
+Program that uses public key cryptography to encrypt all text files in a directory using PyNaCl library. Private and Public keys are persisted using json.
 '''
 
 
