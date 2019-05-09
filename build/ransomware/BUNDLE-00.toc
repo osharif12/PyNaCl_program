@@ -1,0 +1,4 @@
+([('ransomware',
+   '/Users/omarsharif/IdeaProjects/USF/CS 683 (Computer '
+   'Security)/PyNaCl_program/dist/ransomware',
+   'EXECUTABLE')],)

@@ -134,7 +134,7 @@ class Pynacl:
 
 def main():
     pynacl = Pynacl()
-    directory = "/Users/omarsharif/IdeaProjects/USF/CS 683 (Computer Security)/PyNaCl_program" # enter this project directory here
+    directory = "/Users" # enter this project directory here
     flag = True
 
     while (flag):
